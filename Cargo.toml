@@ -1,0 +1,12 @@
+[package]
+name = "f_audio_mastering"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+hound           = "3.5"
+thiserror       = "2"
+claxon          = "0.4"
+minimp3         = "0.5"
+mp3lame-encoder = "0.2"
+flac-io         = "0.1.1"
